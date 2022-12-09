@@ -4,3 +4,5 @@
   DB='Employee'
   echo 'logging into db $DB as $DB_USER'
   mysql -u "$DB_USER" --password="$DB_PASS" < data.sql
+  
+  
